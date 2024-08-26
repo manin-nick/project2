@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя страничка</title>
+</head>
+<body>
+    <h1>Мой сайт</h1>
+        <p>Меня зовут Николай и это мой второй сайт!</p>
+    <h2>Моё видео</h2>
+        <video src="/files/video_2024-08-26_20-16-03.mp4" width="400" height="700" controls>Браузер не смог отобразить видео</video>
+    <h2>Моя музыка</h2>
+        <audio src="/files/Green Day - Wake Me Up When September End.mp3" controls>Браузер не смог воспроизвести аудио</audio>
+    <h2>Интерактивный объект</h2>
+        <embed src="/files/Linux для сетевых инженеров.pdf" width="900" height="700" type="application/pdf">
+    <h2>Форма для сбора данных</h2>
+    <form action="/submit" method="post">
+        <label for="username">Имя пользователя:</label>
+        <br>
+        <input type="text" id="username" name="username">
+        <br>
+        <label for="password">Пароль:</label>
+        <br>
+        <input type="password" id="password" name="password">
+        <br>
+        <br>
+        <label for="city">Выберите город:</label>
+        <br>
+        <select name="city" id="city">
+            <option value="msk">Москва</option>
+            <option value="spb">Питер</option>
+            <option value="rnd">Ростов</option>
+            <option value="vlg">Волгоград</option>
+        </select><br>
+        <br>
+        <label>Выберите Ваше хобби:</label>
+        <br>
+        <input type="checkbox" id="hobby_1" name="hobby" value="reading">
+        <label for="hobby_1">Чтение</label>
+        <br>
+        <input type="checkbox" id="hobby_1" name="hobby" value="travel">
+        <label for="hobby_1">Путешествия</label>
+        <br>
+        <input type="checkbox" id="hobby_1" name="hobby" value="sport">
+        <label for="hobby_1">Спорт</label>
+        <br>
+        <br>
+        <input type="submit" value="Отправить">
+        </form>
+</body>
+</html>
